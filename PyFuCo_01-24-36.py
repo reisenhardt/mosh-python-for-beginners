@@ -8,5 +8,7 @@ while i < 5:
         print("Der Wahnsinn, Du hast es geschafft!")
         break
     print(f"Bitte noch einmal probieren! Du hast noch {5-i} Versuche!")
+else:
+    print("Sorry, you failed!")
 
 print("Das war's. ")
